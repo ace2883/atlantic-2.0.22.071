@@ -31,7 +31,7 @@
 TARGET := atlantic
 
 ifndef CC
-CC = gcc
+CC = clang-6.0
 endif
 
 export DEBIAN=`/usr/bin/dpkg --search /usr/bin/dpkg >/dev/null 2>&1 && echo 1 || echo 0`
